@@ -28,7 +28,7 @@ export default function Home() {
             { name: "Features", id: "features" },
             { name: "Pricing", id: "pricing" },
             { name: "About", id: "about" },
-            { name: "Contact", id: "contact" },
+            { name: "Contact", id: "contact" }
           ]}
           brandName="YourSaaS"
         />
@@ -52,7 +52,7 @@ export default function Home() {
           <FeatureCardOne
             features={[
               { title: "Streamlined Operations", description: "Enhance productivity with user-friendly interfaces.", imageSrc: assetMap.find(a => a.id === 'features-img-1')?.url },
-              { title: "Scalable Solutions", description: "Grow your business with flexible plans.", button: { text: 'Learn More', href: 'https://example.com' } },
+              { title: "Scalable Solutions", description: "Grow your business with flexible plans." },
               { title: "Custom Integrations", description: "Seamlessly integrate with existing systems." }
             ]}
             title="Core Features"
